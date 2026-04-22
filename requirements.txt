@@ -1,0 +1,15 @@
+# file_parser requirements
+# Install all with: pip install -r requirements.txt
+#
+# Note: pytesseract also requires the Tesseract binary on your system.
+# Windows: https://github.com/UB-Mannheim/tesseract/wiki
+# macOS:   brew install tesseract
+# Linux:   apt install tesseract-ocr
+
+pdfplumber>=0.10.0
+python-docx>=1.1.0
+openpyxl>=3.1.0
+olefile>=0.47
+pytesseract>=0.3.10
+Pillow>=10.0.0
+chardet>=5.0.0        # optional but recommended for encoding detection
